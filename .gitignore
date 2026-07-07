@@ -1,0 +1,22 @@
+# Ignore venvs anywhere in the tree
+venv/
+.venv/
+env/
+.env/
+
+# Common Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor junk
+.vscode/
+.idea/
+*.swp
